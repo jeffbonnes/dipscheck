@@ -1,0 +1,9 @@
+tmp
+*.class
+*.pyc
+*.pyo
+*.DS_Store
+/build/
+/.settings/
+/.fastdev.lock
+/build.log
