@@ -1,6 +1,7 @@
 This is a quick example of how Density Specific Resources are used on Android in Appclerator Titanum.  I did  this because I wanted to understand how big my images needed to be for each device.
 
 Here is the summary:
+res-xxhdpi (Samsung Galaxy S4) 3x size of pixels
 res-xhdpi (Samsung Galaxy Nexus, Samsung Galaxy S3) - Same as @2x images for iPhone
 res-hdpi  (Samsung Galaxy S, Samsung Galaxy S2, HTC Desire HD, HTC Incredible S) - 1.5x size of pixels
 res-mdpi  (HTC Desire 2.5) - Same as iPhone images (1px = 1dp)
@@ -11,4 +12,3 @@ All the apps I have developed are Portrait only, so I dont worry about 'land'
 Other things I found out:
 There must be a bug in building for the Android device.  Make sure you to a clean before you deploy to your device as sometimes deploying to the Emulator removes all drawables from the build directory. 
 
-As part of the project I'm working on now, I'm going to create a script to generate the correct image files from a @2x image using ImageMagick

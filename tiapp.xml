@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><ti:app xmlns:ti="http://ti.appcelerator.org">
     <property name="ti.android.runtime">rhino</property>
     <deployment-targets>
+        <target device="tizen">false</target>
         <target device="mobileweb">false</target>
         <target device="iphone">true</target>
         <target device="ipad">false</target>
@@ -46,4 +47,5 @@
         <theme>default</theme>
     </mobileweb>
     <modules/>
-<property name="ti.deploytype">test</property></ti:app>
+    <property name="ti.deploytype">test</property>
+</ti:app>
